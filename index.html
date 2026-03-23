@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Paltep Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+                                               <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+                                          <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+
+<body class="dark-mode">
+                                                  <!-- Loading Screen -->
+     <div id="loader" class="loader-wrapper">
+          <div class="loader"></div>
+    </div>
+
+
+                                                      <!-- Navigation -->
+    <nav id="navbar">
+     <div class="container">
+             <div class="logo">
+                 <a href="#"><span>Dev</span>Paltep</a>
+             </div>
+            <ul class="nav-links">
+                                                          <!--HOME-->
+         <li>
+             <a href="#hero" class="nav-item">
+                 <i class="fa-solid fa-house"></i>
+                 <span class="nav-text">Home</span>
+             </a>
+         </li>
+                                                           <!--ABOUT-->
+         <li>
+             <a href="#about" class="nav-item">
+                 <i class="fa-solid fa-circle-user"></i>
+                 <span class="nav-text">About</span>
+             </a>
+         </li>
+                                                          <!--PROJECTS-->
+         <li>
+             <a href="#projects" class="nav-item">
+                 <i class="fa-solid fa-book"></i>
+                 <span class="nav-text">Projects</span>
+             </a>
+         </li>
+                                                          <!--AWARDS-->
+         <li>
+             <a href="#certificates" class="nav-item">
+                 <i class="fa-solid fa-award"></i>
+                 <span class="nav-text">Certificates</span>
+             </a>
+         </li>
+                                                           <!--CONTACTS-->
+         <li>
+             <a href="#contact" class="nav-item">
+                 <i class="fa-solid fa-envelope"></i>
+                 <span class="nav-text">Contact</span>
+             </a>
+         </li>
+
+
+           
+                
+                
+            </ul>
+                <div class="nav-actions">
+                 <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                      <i class="fas fa-moon"></i>
+                 </button>
+                    <div class="hamburger">
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                    </div>
+                </div>
+     </div>
+     </nav>
+
+
+                                                           <!-- Hero Section -->
+     <hr>
+        <section id="hero" class="hero-section">
+          <div id="particles-js"></div>
+            <div class="container">
+              <div class="hero-content">
+                 <h2 class="reveal">Hello, I'm</h2>
+                    <div class="banner-container">
+                      <h1 class="moving-text">Mark Jowell Paltep</h1>
+                    </div>
+                 <p>I am</p>
+                 <p class="reveal"><span id="typing-text"></span><span class="cursor">|</span></p>
+                    <div class="tagline-container">
+                      <p class="tagline">"Driven by curiosity. Defined by the build."</p>
+                    </div>
+                    <div class="hero-btns reveal">
+                     <a href="#projects" class="btn btn-primary">View Projects</a>
+                     <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+         <div class="scroll-indicator">
+            <div class="mouse"><i class="fa-brands fa-dev"></i></div>
+         </div>
+       
+        </section>
+
+
+                                                        <!-- About Me Section -->
+     <section id="about" class="about-section section">
+        <div class="container">
+            
+            <div class="about-container">
+                <div class="about-img reveal">
+                    <hr>
+                    
+                    <div class="img-wrapper">
+                                                 <!-- Placeholder for Profile Image -->
+                        <img src="taylor.png" alt="mark paltep Profile">
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    
+                    <h2 class="section-title reveal">About Me</h2>
+                    <hr>
+                    <p>I am a developer dedicated to building seamless digital experiences across the web and mobile devices. My expertise lies in bridging clean, responsive front-end web design with high-performance mobile application logic. Whether I'm architecting a complex web dashboard or optimizing a mobile interface, my goal is to create tools that are as functional as they are intuitive.</p>
+                    <hr>
+                  <div class="stats-container reveal">
+   
+                    <div class="stat-card" >
+        
+        <a href="#projects"><h3 class="stat-number">3</h3>
+        <p class="stat-label">Projects</p></a>
+     </div>
+
+     <div class="stat-card">
+        <a href="#awards"><h3 class="stat-number">2</h3>
+        <p class="stat-label">Certificates.</p></a>
+     </div>
+     </div>
+
+                </div>
+                
+            </div>
+        </div>
+     </section>
+
+
+                                                           <!-- Projects Section -->
+     <section id="projects" class="projects-section section">
+        <div class="container">
+            <h2 class="section-title reveal">My Projects</h2>
+            <div class="projects-grid">
+                                                               <!-- Project 1 -->
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="project-1.PNG" alt="Project 1" style="width: 400px; height: auto;">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://panelofdcibx4am911.x10.mx/" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" title="Source Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>License Management System</h3>
+                        <p>A robust backend tool for generating, managing, and tracking software licenses with device-specific restrictions.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>C++</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+                                                         <!-- Project 2 -->
+               <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="project-2.PNG" alt="Project 1" style="width: 561px; height: 330px;">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.mediafire.com/file/6gvahe8hsx6gdtj/DCIB_X_4AM_GARENA_1.6.54.xapk/file" title="Download Now"><i class="fas fa-download"></i></a>
+                                <a href="#" title="Source Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>DCIB X 4AM Software</h3>
+                        <p>Its an third party application Software for CODM that make the game easier to play.</p>
+                        <div class="tech-stack">
+                            <span>Java</span>
+                            <span>C++</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+                                                        <!-- Project 3 -->
+                  <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="project-3.PNG" alt="Project 1" style="width: 561px; height: 330px;">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://www.t.me/DCIBofficial" title="BUY NOW"><i class="fas fa-shopping-bag"></i></a>
+                                <a href="#" title="Source Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>MLBB Script</h3>
+                        <p>Its an Script for MLBB to play unfair play.</p>
+                        <div class="tech-stack">
+                            <span>Lua</span>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+     </section>
+
+
+                                                               <!--CERTIFICATES-->
+     <section id="certificates" class="certificates-section section">
+     <div class="container">
+        <div class="section-header reveal">
+            <h2 class="section-title">Certificates & Badges</h2>
+            <p>A showcase of my professional certifications and continuous learning.</p>
+        </div>
+
+        <div class="cert-slider">
+            <div class="cert-track">
+                <div class="cert-slide">
+                    <img src="cert-1.PNG" alt="Meta Certificate" weight="150px" height="150px">
+                   
+                </div>
+                
+                <div class="cert-slide">
+                    <img src="cert-2.PNG" alt="Meta Certificate">
+                  
+                </div>
+            </div>
+        </div>
+     </div>
+     </section>
+
+
+                                                                        <!-- Contact Section -->
+     <section id="contact" class="contact-section section">
+        <div class="container">
+            <h2 class="section-title reveal">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out to me for any inquiries, collaborations, or just to say hi!</p>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>paltepmarkme@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+639606941769</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Malolos,Bulacan</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/paltepmark" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mark-jowell-8836293b5/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/paltepmark27/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/paltepmjsurs" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.t.me/DCIBofficial" target="_blank"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form reveal">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <span class="error-msg" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <span class="error-msg" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                            <span class="error-msg" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="formStatus"></div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+                                                                        <!-- Footer -->
+     <footer>
+         <div class="container">
+             <div class="footer-content">
+                 <p>&copy; 2026 DevPaltep. All rights reserved.</p>
+                 <div class="footer-links">
+                      <a href="#">Privacy Policy</a>
+                      <a href="#">Terms of Service</a>
+                 </div>
+             </div>
+         </div>
+         <button id="back-to-top" title="Back to Top">
+              <i class="fas fa-arrow-up"></i>
+         </button>
+     </footer>
+
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
